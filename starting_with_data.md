@@ -2,7 +2,7 @@ Question 1:  What are the top 10 cities with the most visitors?
 
 
 SQL Queries: 
-SELECT city, COUNT(fullvisitorid) AS numofvisitors
+SELECT city, COUNT(DISTINCT(fullvisitorid)) AS numofvisitors
 FROM all_sessions
 WHERE city <> 'not available in demo dataset' and city <> '(not set)'
 GROUP BY city

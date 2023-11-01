@@ -16,7 +16,7 @@ Answer: Cleary United States has the highest transaction revenues by far from an
 **Question 2: What is the average number of products ordered from visitors in each city and country?**
 
 SQL Queries:
-Select s.country, s.city, (SUM(CAST(o.total_ordered AS integer))/(COUNT(s.fullvisitorid))) AS avgpervistor 
+Select s.country, s.city, (SUM(CAST(o.total_ordered AS integer))/(COUNT(DISTINCT(s.fullvisitorid)))) AS avgpervistor 
 from all_sessions s
 JOIN orders o
 ON s.productsku = o.sku
@@ -42,7 +42,7 @@ These are the top 10 when cities and countries are grouped.
 **Question 3: Is there any pattern in the types (product categories) of products ordered from visitors in each city and country?**
 
 SQL Queries:
-select country, city, v2productcategory, COUNT(fullvisitorid) AS visitors
+select country, city, v2productcategory, COUNT(DISTINCT(fullvisitorid)) AS visitors
 from all_sessions 
 where country <> '(not set)' AND city <> '(not set)' AND city <> 'not available in demo dataset' 
 		AND v2productcategory <> '(not set)' AND v2productcategory <> '${escCatTitle}'

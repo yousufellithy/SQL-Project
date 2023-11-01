@@ -1,4 +1,4 @@
-Question 1:  What are the top 10 cities with the most vistors?
+Question 1:  What are the top 10 cities with the most visitors?
 
 
 SQL Queries: 

@@ -1,6 +1,6 @@
 What issues will you address by cleaning the data?
 
-I only clean the data that needs to be used. These are the issues I addressed, I provided what I did and then explained why I did it. I put the Queries that I used, both lists to match each other. 
+I only clean the data that needs to be used. These are the issues I addressed, I provided what I did and then explained why I did it. I put the Queries that I used, both lists match each other. 
 
 1. Converting columns from character varying to float/integer in order to use it for aggregation like SUM, AVG, etc. Used float because revenue and sales could have decimals 
 2. Excluded NULLS to not interfere with data tables, to get the actual descending order (it puts nulls on top)

@@ -9,6 +9,8 @@ Describe your QA process and include the SQL queries used to execute it.
 
 To go back and check over my queries and see if the table that is outputted makes sense in terms of what is being asked and the context of how the output should look.
 
+Some Queries used:
+
 SELECT city FROM all_sessions AND SELECT country FROM all_sessions and go through them to check they're all valid values 
 
 SELECT * FROM all_sessions WHERE country = 'USA' and Select * from all_sessions where country = 'United States' --- to check if there aren't multiple versions of the same country, did the same with the UK

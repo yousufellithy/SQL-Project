@@ -4,7 +4,7 @@
 The objective of this project is to review a set of files for analysis and interpretation. The aim is to extract valuable insights from the data. The project goals include enhancing proficiency in data reading, as well as developing the capability to identify potential flaws and issues within the data even before the cleaning or scraping process begins. Most importantly to find the answers to the objects/questions given. 
 
 ## Process
-STEP 1 - Import the data: Begin by importing the CSV files onto the SQL analysis tool and ensuring all columns were transferred
+STEP 1 - Import the data: Begin by importing the CSV files onto the SQL analysis tool and ensuring all columns were transferred.
 
 STEP 2 - Data exploration: Get a first glance at all the tables and going through them to see what they could potentially represent and how they all connect. This is the stage to set primary keys and foreign keys. 
 

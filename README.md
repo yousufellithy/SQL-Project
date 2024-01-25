@@ -5,6 +5,7 @@ The objective of this project is to review a set of files for analysis and inter
 
 ## Process
 STEP 1 - Import the data: Begin by importing the CSV files onto the SQL analysis tool and ensuring all columns were transferred
+
 STEP 2 - Data exploration: Get a first glance at all the tables and going through them to see what they could potentially represent and how they all connect. This is the stage to set primary keys and foreign keys. 
 STEP 3 - Quality assessment: At this stage, it's important to see the quality of the data that's been imported, check the data types and see if they're correct. This step was merged with the second step as it involved data cleaning, which was done on a need-to-use basis. After the question/objective is given, pick the columns that need to be used and then do the data cleaning for the columns but the cleaning was shown in the output and not editing the actual data set. This was done because it becomes very difficult to reverse the editing of the dataset (in case it was done incorrectly).
 STEP 4 - Solve questions: Look at the objective and figure out a query to get the solutions while maintaining the integrity of the data, additionally create new questions to be answered to give a wider understanding of the data and how it could be used

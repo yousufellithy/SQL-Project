@@ -1,4 +1,4 @@
-#Transforming-and-Analyzing-Data-with-SQL
+# Transforming-and-Analyzing-Data-with-SQL
 
 ## Project/Goals
 The objective of this project is to review a set of files for analysis and interpretation. The aim is to extract valuable insights from the data. The project goals include enhancing proficiency in data reading, as well as developing the capability to identify potential flaws and issues within the data even before the cleaning or scraping process begins. Most importantly to find the answers to the objects/questions given. 
